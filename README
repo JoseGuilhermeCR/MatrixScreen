@@ -1,4 +1,7 @@
 A simulation of the code rain that happens in the Matrix movie. It was done using SFML, the code works perfectly with the normal ascii characters, but the implementation of the katakana characters is not done yet.
 
+COMPILING:
+g++ *.cc -std=c++14 -Wall -lsfml-graphics -lsfml-window -lsfml-system
+
 HOW TO RUN: 
 ./a.out WIDTH HEIGHT SYMBOL_SIZE
